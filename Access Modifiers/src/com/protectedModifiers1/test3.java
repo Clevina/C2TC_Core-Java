@@ -1,4 +1,4 @@
-package com.protectedModifiers1;
+package com.protectedModifiers1;//outside the package
 
 import com.protectedModifiers.test;
 

@@ -1,6 +1,6 @@
 package com.defaultModifier;
 
-class test {
+public class test {
 	int i=10;
 	void show()
 	{

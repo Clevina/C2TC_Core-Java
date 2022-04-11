@@ -2,9 +2,9 @@ package com.privatemodifier;//within class
 
 public class test {
 
-	protected int i=10;
+	private int i=10;
 	
-	protected void show()
+	public void show()
 	{
 		System.out.println("Hello world");
 	}
