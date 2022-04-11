@@ -1,8 +1,5 @@
 package com.staticMethod;
-
-
-
- class Student {
+class Student3 {
 
 	int rollno;
 	String name;
@@ -10,7 +7,7 @@ package com.staticMethod;
 	//static {    static block
 		//college="ITS";
 	//}
-	public Student(int r,String n)
+	public Student3(int r,String n)
 	{
 		rollno=r;
 		name=n;
@@ -23,15 +20,17 @@ package com.staticMethod;
 	{
 		System.out.println(rollno+" "+name+" "+college);
 	}
+}
 
+public class Method {
 
 	public static void main(String[] args) {
-		Student s1=new Student(111,"KARAN");
-		Student s2=new Student(222,"ARYAN");
-		change();
+		Student3 s1=new Student3(111,"KARAN");
+		Student3 s2=new Student3(222,"ARYAN");
+		s1.change();
 		s1.display();
 		s2.display();
-		
+
 	}
 
 }
