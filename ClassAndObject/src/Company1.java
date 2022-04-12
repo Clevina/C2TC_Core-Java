@@ -11,8 +11,8 @@ public class Company1 {
 		new Company1();
 		//Company1 c3 = new Company1();
 		Company1 c3;
-		c3.name="C2TC";
-		System.out.println(c3.name);
+		//c3.name="C2TC";
+		System.out.println(c1.name);
 	
 	}
 
