@@ -1,5 +1,5 @@
-package com.Practiceqs;
-
+package com.inheritance;
+ 
 class Addition{
 	public void add(int a,int b)
 	{
@@ -19,7 +19,7 @@ class multiplication extends subtraction{
 	}
 }
 class division extends multiplication{
-	public void div(float a,float b)
+	public void div(int a,int b)
 	{
 		System.out.println("division is :"+(a/b));
 	}
@@ -34,14 +34,15 @@ class division extends multiplication{
 class calculation extends division
 {
 }
-
-public class MultilevelInheritance {
+public class Demo4 {
 
 	public static void main(String[] args) {
 		division d= new division();
 		d.CallAllMethods();
-
 	}
 
 }
+
+
+
 
