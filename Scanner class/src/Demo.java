@@ -4,13 +4,13 @@ public class Demo {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		int sum=0, j=0;
+		float sum=0, j=0;
 		System.out.println("enter the number");
-		int n=sc.nextInt();
+		float n=sc.nextInt();
 		while(j<n)
 		{
 			
-			int num=sc.nextInt();
+			float num=sc.nextInt();
 			sum+=num;
 			j++;
 		}
