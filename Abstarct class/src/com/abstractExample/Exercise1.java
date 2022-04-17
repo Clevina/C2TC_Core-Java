@@ -17,13 +17,7 @@ class Mymovie1 extends Movie
 	{
 		return getTitle();
 	}
-	@Override
-	void setTitle() {
-		// TODO Auto-generated method stub
-		
-	}
-
-}
+	
 public class Exercise1 {
 
 	public static void main(String[] args) {
@@ -35,6 +29,13 @@ public class Exercise1 {
 
 	}
 	
+}
+
+@Override
+void setTitle() {
+	// TODO Auto-generated method stub
+	
+}
 }
 
 
