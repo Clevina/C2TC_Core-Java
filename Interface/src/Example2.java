@@ -1,5 +1,7 @@
 interface Vehicle{
-	void Engine();
+	 void Engine();
+	
+	
 }
 interface Bike1 extends Vehicle{
 	void getMileage();

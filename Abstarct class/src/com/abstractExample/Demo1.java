@@ -2,6 +2,8 @@ package com.abstractExample;
 abstract class Shape
 {
 	abstract void draw();
+		
+	
 }
  class rectangle extends Shape
  {
