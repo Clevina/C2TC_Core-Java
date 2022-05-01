@@ -24,7 +24,9 @@ public class Interchange1 {
 		
 		  for(int i=0;i<a.length;i++) {
 		  
-		  int t= a[0][i]; a[0][i]=a[2][i]; a[2][i]=t;
+		  int t= a[0][i]; 
+		  a[0][i]=a[2][i];
+		  a[2][i]=t;
 		  
 		  }
 		 
