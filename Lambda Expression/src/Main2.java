@@ -1,0 +1,18 @@
+interface Sayable2
+{
+	public void say();
+}
+public class Main2 {
+
+	public static void main(String[] args) {
+		Sayable2 s=() ->{
+			System.out.println("I have nothing to say");
+			System.out.println("I have nothing to say");
+			System.out.println("I have nothing to say");
+			System.out.println("I have nothing to say");};
+			s.say();
+
+
+	}
+
+}
