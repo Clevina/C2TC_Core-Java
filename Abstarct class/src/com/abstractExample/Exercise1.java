@@ -12,6 +12,7 @@ class Mymovie1 extends Movie1
 	 void setTitle(String s)
 	{
 		String title=s;
+
 	}
 	String getTitle()
 	{

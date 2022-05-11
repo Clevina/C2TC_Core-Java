@@ -11,8 +11,9 @@ class demo
 		ArrayList<String> list= new ArrayList<String>();
 		list.add("banana");
 		list.add("apple");
-		Iterator itr= list.iterator();
 		Collections.sort(list);
+		Iterator itr= list.iterator();
+		//Collections.sort(list);should not add in between the iterator
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next()+" ");
