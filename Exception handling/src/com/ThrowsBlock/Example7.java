@@ -7,7 +7,7 @@ public class Example7 {
 	{
 		throw new java.io.IOException("Error");
 	}
-	void n()
+	void n() throws Exception
 	{
 		m();
 	}
