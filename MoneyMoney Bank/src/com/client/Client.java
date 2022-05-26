@@ -14,7 +14,7 @@ public class Client {
 		SavingAcc sa=new MMSavingAcc(1, "Clevina", 1000.00f, true);
 		sa.withdraw(sa.getAccBal());
 		sa.toString();
-		CurrentAcc ca=new MMCurrentAcc(2, "Seema",100.00f, 10f);
+		CurrentAcc ca=new MMCurrentAcc(2, "Seema",100.00f, 500.0f);
 		ca.withdraw(ca.getCreditLimit());
 		ca.toString();
 	}
