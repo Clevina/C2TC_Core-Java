@@ -2,14 +2,19 @@ package com.framework;
 
 public abstract class CurrentAcc extends BankAcc{
 	
-	private final float creditLimit=10;
-	public CurrentAcc(int accNo, String accNm, float accBal) {
+	private final float creditLimit;
+	public   float getCreditLimit()
+	{
+		return creditLimit;
+	}
+	public CurrentAcc(int accNo, String accNm, float accBal,float creditLimit) {
 		super(accNo, accNm, accBal);
-		// TODO Auto-generated constructor stub
+		this.creditLimit=creditLimit;
+		
 	}
 	public void withdraw(float creditLimit )
 	{
-		
+		System.out.println("Dear Cuurent account user, your credit limit  is:"+creditLimit);
 	}
 
 	@Override

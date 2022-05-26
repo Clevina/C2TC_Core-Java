@@ -3,13 +3,13 @@ package com.application;
 import com.framework.CurrentAcc;
 
 public class MMCurrentAcc extends CurrentAcc{
-	public MMCurrentAcc(int accNo, String accNm, float accBal) {
-		super(accNo, accNm, accBal);
-		// TODO Auto-generated constructor stub
+	public MMCurrentAcc(int accNo, String accNm, float accBal,float creditLimit) {
+		super(accNo, accNm, accBal, creditLimit);
+		
 	}
 	public void withdraw(float creditLimit)
 	{
-		
+		System.out.println("Dear Current  account user, your credit limit  is:"+creditLimit);
 	}
 	@Override
 	public String toString() {

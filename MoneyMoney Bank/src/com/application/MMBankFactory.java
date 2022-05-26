@@ -1,23 +1,26 @@
 package com.application;
 
 import com.framework.BankFactory;
+
 import com.framework.CurrentAcc;
 import com.framework.SavingAcc;
 
-public abstract class MMBankFactory extends BankFactory {
+public class MMBankFactory extends BankFactory {
 
-	public  SavingAcc getNewSavingAccount(int AccNo,  String accNm, float  accBal, 
-			boolean isSalaried)
-	{
-		return null;
-		
+	@Override
+	public SavingAcc getNewSavingAccount(int accNo, String accNm, float accBal, boolean isSalary) {
+		MMSavingAcc ms= new MMSavingAcc(accNo,accNm,accBal,isSalary);
+		return ms;
 	}
-	  
-	   public  CurrentAcc getNewCurrentAccount(int AccNo,  String accNm, float accBal, 
 
-			  float creditLimit)
-	   {
-		return null;
-		   
-	   }
+	@Override
+	public CurrentAcc getNewCurrentAccount(int accNo, String accNm, float accBal, float creditLimit) {
+		MMCurrentAcc mc= new MMCurrentAcc(accNo,accNm,accBal,creditLimit);
+		return mc;
+	}
+
 }
+
+
+
+
