@@ -11,6 +11,8 @@ class Main1 implements Interface1,Interface2
 	public void myMethod() {
 		System.out.println("Implementing more than one interfaces");	
 	}
+
+	
 	
 }
 public class Example5 {

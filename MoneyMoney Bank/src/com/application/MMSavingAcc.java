@@ -12,7 +12,7 @@ public class MMSavingAcc extends SavingAcc{
 	}
 	public void withdraw(float accBal)
 	{
-		System.out.println("Dear Saving account user, your account balance is:"+accBal);
+		System.out.println("Dear  account user, your Saving  account balance is:"+accBal);
 	}
 	
 	@Override

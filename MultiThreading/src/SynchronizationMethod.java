@@ -26,6 +26,14 @@ public class SynchronizationMethod {
 		});
 		t2.start();
 		t2.join();
+		Thread t3= new Thread(new Runnable() {
+			public void run()
+			{
+				c.increment();
+			}
+		});
+		t3.start();
+		t3.join();
 		System.out.println(c.count);
 	}
 

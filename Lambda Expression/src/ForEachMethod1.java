@@ -8,7 +8,7 @@ public class ForEachMethod1 {
 		arr.add("Leema");
 		arr.add("Pooja");
 		arr.add("Hema");
-		arr.forEach(temp->System.out.println(temp));
+		arr.forEach(a->System.out.println(a));
 
 	}
 

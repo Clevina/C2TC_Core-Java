@@ -1,6 +1,7 @@
 interface addition
 {
 	public int add(int a, int b);
+	
 }
 public class Example1 {
 

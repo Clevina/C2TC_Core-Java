@@ -1,7 +1,8 @@
 package com.abstractExample;
 abstract class Animal
 {
-	abstract void eat();
+	abstract  void eat();
+	
 }
 class Herbivorous extends Animal{
 	void eat()
@@ -14,6 +15,7 @@ class Carnivorous extends Animal{
 	void eat()
 	{
 		System.out.println("Im a  non vegetarian");
+		
 	}
 }
 public class Main {
